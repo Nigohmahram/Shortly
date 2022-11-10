@@ -1,5 +1,34 @@
 /* FONTS  */
+@font-face {
+     font-family: 'Poppins';
+     src: url('../fonts/Poppins-Medium.woff2') format('woff2'),
+          url('../fonts/Poppins-Medium.woff') format('woff');
+     font-weight: 500;
+     font-style: normal;
+     font-display: swap;
+}
+
+@font-face {
+     font-family: 'Poppins';
+     src: url('../fonts/Poppins-Bold.woff2') format('woff2'),
+          url('../fonts/Poppins-Bold.woff') format('woff');
+     font-weight: bold;
+     font-style: normal;
+     font-display: swap;
+}
+
+
 /* ROOT  */
+:root {
+     --font-family: "Poppins", sans-serif;
+     --text-color: #9E9AA8;
+     --heading-color: #34313D;
+     --white-color: #ffffff;
+     --button-color: #2BD0D0;
+     --font-weight5: 500;
+     --font-weight7: bold;
+}
+
 /* GLOBALL */
 
 html {
@@ -21,10 +50,10 @@ body {
      margin: 0;
      flex-direction: column;
      background-color: #fff;
-     color: #222;
-     font-family: "Arial" sans-serif;
-     font-size: 16px;
-     line-height: 1.5;
+     color: #34313D;
+     font-family: 'Poppins', sans-serif;
+     font-size: 15px;
+     line-height: 22px;
 }
 
 img {
@@ -36,9 +65,9 @@ img {
 
 .container {
      width: 100%;
-     max-width: 1200px;
-     padding-left: 50px;
-     padding-right: 50px;
+     max-width: 1150px;
+     padding-left: 20px;
+     padding-right: 20px;
      margin-left: auto;
      margin-right: auto;
 }
