@@ -530,17 +530,17 @@ select:-webkit-autofill:focus {
 }
 
 
-.site-footer_menus {
+.site-footer__menus {
      display: flex;
      margin-left: auto;
      margin-right: 100px;
 }
 
-.site-footer_menu:not(:last-child) {
+.site-footer__menu:not(:last-child) {
      margin-right: 90px;
 }
 
-.site-footer_menu-title {
+.site-footer__menu-title {
      margin-bottom: 22px;
      margin-top: 0;
      font-size: 16px;
@@ -548,22 +548,23 @@ select:-webkit-autofill:focus {
      letter-spacing: -0.25px;
 }
 
-.site-footer_menu-list {
+.site-footer__menu-list {
      padding: 0;
      margin: 0;
      list-style: none;
 }
 
-.site-footer_menu-item:not(:last-child) {
+.site-footer__menu-item:not(:last-child) {
      margin-bottom: 10px;
 }
 
-.site-footer_menu-link {
+.site-footer__menu-link {
      text-decoration: none;
      color: #bfbfbf;
+     text-transform: capitalize;
 }
 
-.site-footer_menu-link:hover {
+.site-footer__menu-link:hover {
      opacity: 0.6;
 }
 
